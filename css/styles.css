@@ -1,0 +1,52 @@
+/*custom styling features in addition to bootstrap styling*/
+
+button{
+	margin: 1px;
+}
+
+nav ul li{
+	cursor: pointer;
+}
+
+.jumbotron {
+  background: url("../assets/background.jpg") no-repeat center center;
+  background-position: right 0px top 58%;
+  background-size: cover;
+  text-shadow: #444 0 1px 1px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.row{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+.navbar-nav{
+	float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.glyphicon{
+	font-size: 26px;
+}
+
+.glyphicon:hover{
+	cursor: pointer;
+	color: grey;
+}
